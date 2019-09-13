@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element){
   return array
 }
 
-function destructivelyAddElementToArray(array, element){
-  array = array.unshift(element)
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element)
   return array
 }
